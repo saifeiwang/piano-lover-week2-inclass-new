@@ -37,4 +37,4 @@
 -- | Washington Nationals          | Anthony    | Rendon      | 34                   |
 -- +-------------------------------+------------+-------------+----------------------+
 
-
+SELECT players.first_name, players.last_name, teams.name, SUM(home_runs)
